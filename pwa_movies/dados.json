@@ -1,0 +1,71 @@
+[
+    {
+        "categoria": "Comédia",
+        "itens": [
+            {
+                "nome": "Minha mãe é uma peça",
+                "imagem": "https://oquartonerd.com.br/wp-content/uploads/2019/12/minha-mae-e-uma-peca-3-cinepop3.jpg",
+                "descricao": "Dona Hermínia é uma mulher de meia idade, divorciada do marido, que a trocou por uma mais jovem. Hiperativa, ela não larga o pé de seus filhos Marcelina e Juliano, que já estão bem grandinhos. Um dia, após descobrir que eles a consideram uma chata, resolve sair de casa sem avisar ninguém, deixando todos, de alguma forma, preocupados com o que teria acontecido. Mal sabem eles que a mãe foi visitar a querida tia Zélia para desabafar suas tristezas do presente e recordar os bons tempos do passado.",
+                "link": "https://www.adorocinema.com/filmes/filme-215671/"
+            },
+            {
+                "nome": "Os Homens São de Marte... E É Pra Lá que Eu Vou",
+                "imagem": "https://imagem.natelinha.uol.com.br/grande/os-homens-sao-de-marte_dda58b9f511e97787e10915da78d196731e4f662.jpeg",
+                "descricao": "Ironia. Essa é a definição ideal para a situação de Fernanda (Mônica Martelli), de 39 anos, que trabalha organizando a cerimônia mais importante do imaginário feminino, o casamento, mas é solteira. Forte devota do amor, a produtora lida com os mais diversos tipos de homem e reserva grande parte do seu tempo à procura do par perfeito.",
+                "link": "https://www.adorocinema.com/filmes/filme-222393/"
+            },
+            {
+                "nome": "Minha vida em marte",
+                "imagem": "https://www.cinegoiania.com.br/wp-content/uploads/2018/12/minha_vida_em_marte.jpg",
+                "descricao": "Fernanda (Monica Martelli) está casada com Tom (Marcos Palmeira), com quem tem uma filha de cinco anos, Joana (Marianna Santos). O casal está em meio ao desgaste causado pelo convívio por muitos anos, o que gera atritos constantes. Quem a ajuda a superar a crise é seu sócio Aníbal (Paulo Gustavo), parceiro inseparável durante a árdua jornada entre salvar o casamento ou pôr fim a ele.",
+                "link": "https://www.adorocinema.com/filmes/filme-261157/"
+            }
+        ]
+    },
+    {
+        "categoria": "Terror",
+        "itens": [
+            {
+                "nome": "Minha mãe é uma peça",
+                "imagem": "https://oquartonerd.com.br/wp-content/uploads/2019/12/minha-mae-e-uma-peca-3-cinepop3.jpg",
+                "descricao": "Dona Hermínia é uma mulher de meia idade, divorciada do marido, que a trocou por uma mais jovem. Hiperativa, ela não larga o pé de seus filhos Marcelina e Juliano, que já estão bem grandinhos. Um dia, após descobrir que eles a consideram uma chata, resolve sair de casa sem avisar ninguém, deixando todos, de alguma forma, preocupados com o que teria acontecido. Mal sabem eles que a mãe foi visitar a querida tia Zélia para desabafar suas tristezas do presente e recordar os bons tempos do passado.",
+                "link": "https://www.adorocinema.com/filmes/filme-215671/"
+            },
+            {
+                "nome": "Os Homens São de Marte... E É Pra Lá que Eu Vou",
+                "imagem": "https://imagem.natelinha.uol.com.br/grande/os-homens-sao-de-marte_dda58b9f511e97787e10915da78d196731e4f662.jpeg",
+                "descricao": "Ironia. Essa é a definição ideal para a situação de Fernanda (Mônica Martelli), de 39 anos, que trabalha organizando a cerimônia mais importante do imaginário feminino, o casamento, mas é solteira. Forte devota do amor, a produtora lida com os mais diversos tipos de homem e reserva grande parte do seu tempo à procura do par perfeito.",
+                "link": "https://www.adorocinema.com/filmes/filme-222393/"
+            },
+            {
+                "nome": "Minha vida em marte",
+                "imagem": "https://www.cinegoiania.com.br/wp-content/uploads/2018/12/minha_vida_em_marte.jpg",
+                "descricao": "Fernanda (Monica Martelli) está casada com Tom (Marcos Palmeira), com quem tem uma filha de cinco anos, Joana (Marianna Santos). O casal está em meio ao desgaste causado pelo convívio por muitos anos, o que gera atritos constantes. Quem a ajuda a superar a crise é seu sócio Aníbal (Paulo Gustavo), parceiro inseparável durante a árdua jornada entre salvar o casamento ou pôr fim a ele.",
+                "link": "https://www.adorocinema.com/filmes/filme-261157/"
+            }
+        ]
+    },
+    {
+        "categoria": "Drama",
+        "itens": [
+            {
+                "nome": "Minha mãe é uma peça",
+                "imagem": "https://oquartonerd.com.br/wp-content/uploads/2019/12/minha-mae-e-uma-peca-3-cinepop3.jpg",
+                "descricao": "Dona Hermínia é uma mulher de meia idade, divorciada do marido, que a trocou por uma mais jovem. Hiperativa, ela não larga o pé de seus filhos Marcelina e Juliano, que já estão bem grandinhos. Um dia, após descobrir que eles a consideram uma chata, resolve sair de casa sem avisar ninguém, deixando todos, de alguma forma, preocupados com o que teria acontecido. Mal sabem eles que a mãe foi visitar a querida tia Zélia para desabafar suas tristezas do presente e recordar os bons tempos do passado.",
+                "link": "https://www.adorocinema.com/filmes/filme-215671/"
+            },
+            {
+                "nome": "Os Homens São de Marte... E É Pra Lá que Eu Vou",
+                "imagem": "https://imagem.natelinha.uol.com.br/grande/os-homens-sao-de-marte_dda58b9f511e97787e10915da78d196731e4f662.jpeg",
+                "descricao": "Ironia. Essa é a definição ideal para a situação de Fernanda (Mônica Martelli), de 39 anos, que trabalha organizando a cerimônia mais importante do imaginário feminino, o casamento, mas é solteira. Forte devota do amor, a produtora lida com os mais diversos tipos de homem e reserva grande parte do seu tempo à procura do par perfeito.",
+                "link": "https://www.adorocinema.com/filmes/filme-222393/"
+            },
+            {
+                "nome": "Minha vida em marte",
+                "imagem": "https://www.cinegoiania.com.br/wp-content/uploads/2018/12/minha_vida_em_marte.jpg",
+                "descricao": "Fernanda (Monica Martelli) está casada com Tom (Marcos Palmeira), com quem tem uma filha de cinco anos, Joana (Marianna Santos). O casal está em meio ao desgaste causado pelo convívio por muitos anos, o que gera atritos constantes. Quem a ajuda a superar a crise é seu sócio Aníbal (Paulo Gustavo), parceiro inseparável durante a árdua jornada entre salvar o casamento ou pôr fim a ele.",
+                "link": "https://www.adorocinema.com/filmes/filme-261157/"
+            }
+        ]
+    }
+]

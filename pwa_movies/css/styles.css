@@ -1,0 +1,40 @@
+body {
+    /* background: white; */
+}
+
+.header {
+    padding: 8px;
+    text-align: center;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content {
+    margin-top: 110px;
+    margin-bottom: 50px;
+}
+
+.content h2 {
+    margin-bottom: 15px;
+    line-height: 40px;
+    border-bottom: 1px dashed #000;
+    background: #ededed;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.footer {
+    padding: 8px;
+    text-align: center;
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #000;
+}
+
+.logo {
+    width: 80px;
+}
