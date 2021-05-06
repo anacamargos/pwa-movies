@@ -1,10 +1,11 @@
-'use strict'
+'use strict';
 
 const CACHE_NAME = 'movie-app-v1'
 const FILES_TO_CACHE = [
     '../images/icons/favicon.ico',
     '../images/logo.png',
     '../images/bg.jpg',
+    '../images/offline.png',
     '../css/styles.css',
     '../css/bootstrap.min.css',
     '../js/bootstrap.bundle.min.js',
@@ -38,4 +39,17 @@ self.addEventListener('activate', (evt) => {
         })
     );
     self.clients.claim();
+});
+
+self.addEventListener('fetch', (evt) => {
+    if(evt.request.mode != 'navigate') {
+        return;
+    }
+    evt.respondWith(
+        fetch(evt.request).catch(() => {
+            return caches.open(CACHE_NAME).then((cache) => {
+                return cache.match('offline.html');
+            });
+        })
+    );
 });

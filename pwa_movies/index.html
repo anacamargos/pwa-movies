@@ -65,7 +65,6 @@
                 navigator.serviceWorker.register('js/service-worker.js').then((reg) => {
                     console.log("Service worker registrado com sucesso", reg)
                     swRegistration = reg;
-                    initializeUI();
                 });
             });
         }

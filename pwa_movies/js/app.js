@@ -1,8 +1,3 @@
-
-let initializeUI = function() {
-    // console.log("Nessa area fica todo o codigo derivado PWA");
-}
-
 // Carregamento de conteúdo
 var ajax = new XMLHttpRequest();
 ajax.open("GET", "./dados.json", true);
