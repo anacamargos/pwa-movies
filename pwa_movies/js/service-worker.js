@@ -41,15 +41,20 @@ self.addEventListener('activate', (evt) => {
     self.clients.claim();
 });
 
+
+//Responder a versão offline do app
 self.addEventListener('fetch', (evt) => {
-    if(evt.request.mode != 'navigate') {
+    console.log('[ServiceWorker] Recebendo', evt.request.url);
+    if (evt.request.mode !== 'navigate') {
         return;
     }
     evt.respondWith(
-        fetch(evt.request).catch(() => {
-            return caches.open(CACHE_NAME).then((cache) => {
-                return cache.match('offline.html');
-            });
-        })
+        fetch(evt.request)
+            .catch(() => {
+                return caches.open(CACHE_NAME)
+                    .then((cache) => {
+                        return cache.match('offline.html');
+                    });
+            })
     );
 });
