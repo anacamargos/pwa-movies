@@ -60,14 +60,22 @@
 
     <script>
         let swRegistration = null;
-        if ('serviceWorker' in navigator) {
+
+        if('serviceWorker' in navigator){
+
             window.addEventListener('load', ()=>{
-                navigator.serviceWorker.register('js/service-worker.js').then((reg) => {
-                    console.log("Service worker registrado com sucesso", reg)
+
+                navigator.serviceWorker.register('service-worker.js').then((reg) => {
+
+                    console.log("Service Worker registrado com sucesso.", reg);
                     swRegistration = reg;
+      
                 });
+
             });
+
         }
+
     </script>
   </body>
 

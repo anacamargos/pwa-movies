@@ -40,3 +40,29 @@ var card_item = function (nome, imagem, descricao, link) {
                 '</div>'+
         '</div>'
 }
+
+//Cache conteúdo dinâmico
+var cache_cards = function(data_json){
+    if('caches' in window){
+        caches.delete('movie-app-v1').then(function(){
+            console.log('Deletando cache de conteúdo antigo');
+            if(data_json.length > 0){
+                var files = ['dados.json'];
+                //Entrando na categoria
+                for(var i = 0; i < data_json.length; i++){
+                    //Entrando no item
+                    for(var j = 0; j < data_json[i].itens.length; j++){
+                        if(files.indexOf(data_json[i].itens[j].imagem) == -1){
+                            files.push(data_json[i].itens[j].imagem);
+                        }
+                    }
+                }
+                caches.open('movie-app-v1').then(function (cache){
+                    cache.addAll(files).then(function(){
+                        console.log("Arquivos de conteúdo cacheados!");
+                    });
+                });
+            }
+        });
+    }
+}
