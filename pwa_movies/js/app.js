@@ -27,7 +27,7 @@ let initialiseUI = function(){
 window.addEventListener('beforeinstallprompt', gravarEvento);
 
 function gravarEvento(evt){
-    console.log("teste");
+    console.log("beforeinstallprompt Event fired");
     deferredInstallPrompt = evt;
 }
 
