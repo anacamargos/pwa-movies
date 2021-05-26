@@ -14,3 +14,13 @@ python -m SimpleHTTPServer 8000
 
 open your favorite browser on localhost:8000/pwa_movies/
 `````
+
+### Resultado Final
+
+#### Versão online
+
+<img src="images/online.png" alt="drawing" width="300"/>
+
+#### Versão offline
+
+<img src="images/offline.png" alt="drawing" width="300"/>
