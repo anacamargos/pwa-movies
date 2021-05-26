@@ -17,10 +17,13 @@ open your favorite browser on localhost:8000/pwa_movies/
 
 ### Final Result
 
-#### Online version
-
-<img src="images/online.png" alt="drawing" width="300"/>
-
-#### Offline version
-
-<img src="images/offline.png" alt="drawing" width="300"/>
+<table>
+  <tr>
+    <td><b>Online version</b></td>
+     <td><b>Offline version</b></td>
+  </tr>
+  <tr>
+    <td><img src="images/online.png" alt="drawing" width="300"/></td>
+    <td><img src="images/offline.png" alt="drawing" width="300"/></td>
+  </tr>
+ </table>
